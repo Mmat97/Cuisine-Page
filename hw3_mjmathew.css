@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:italic");
+
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+  }  
+
+body{
+    overflow-x:hidden;
+	
+}
+
+br {
+    display: block;
+    margin-bottom: 2px;
+    font-size:2px;
+    line-height: 2px;
+}
+
+
+/* margin between top left bottom right*/
+.top-address {
+	margin: 30px 0px 0px 180px;
+	font-size: 12px;
+	font-family:'Helvetica';
+	color: gray;
+	
+}
+
+.top-bottom-address {
+	margin: 2px 0px 0px 180px;
+	font-size: 12px;
+	font-family:'Helvetica';
+	color: gray
+	
+}
+
+/*padding to include border-bottom*/
+.header {
+	padding: 20px 0px 60px 500px;
+	font-size: 55px;
+	font-weight: 500;
+	font-family: 'Helvetica';
+	letter-spacing: 10px;
+	color: #bd9c5f;
+	border-bottom: 1px solid rgb(192,192,192);
+
+
+}
+
+
+
+
+
+a {
+	text-decoration: none;
+	color: rgb(88, 86, 86);
+	
+ } 
+
+.tabs {
+	width: 1200px;
+	margin: 0px 170px;
+	font-size: 15px;
+}
+.tabs div {
+	display: inline-block;
+	font-weight: 100;
+	font-family: Arial;
+	margin: 20px 140px 0px 0px;
+
+}
+
+
+.banner {
+	background: url("images/image6.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 630px;
+	max-width: 1250px;
+	background-size: 1900px;
+	background-position: -360px 70px;
+	margin: 10px 0px 0px 0px;
+
+}
+
+
+
+
+
+
+
+.left-side{
+	margin: 160px -60px 0px 120px;
+	width: 500px;
+
+	position: absolute;
+
+}
+
+.image2 {
+	margin: 40px 0px 60px 0px;
+}
+
+
+.fresh-Header{
+	margin: 10px 0px 0px 0px;
+	font-family: "Libre Baskerville";
+	font-style:italic;
+	font-size: 31px;
+	color: #bc9b5d;
+	letter-spacing: 1px;
+}
+
+.fresh-Text{
+	margin: 10px 0px 0px 0px;
+	font-weight: 100;
+	font-family: Arial;
+	color: rgb(105, 104, 104);
+	font-size: 15px;
+
+}
+
+.read-link{
+	margin: 15px 0px 0px 0px;
+	font-size: 15px;
+
+
+}
+
+.read-link a{
+	color: black;
+	font-family: Arial;
+
+
+}
+
+
+
+
+
+
+.right-side{
+	margin: 80px 0px 60px 610px;
+
+	display: inline-block;
+	
+
+}
+
+
+.prefresh-Header {
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: gray;
+
+
+}
+
+.image3 {
+	margin: 200px 0px 0px 0px;
+}
+.image4 {
+	margin: 40px 0px 0px 0px;
+}
+
+.image5 {
+	position: relative;
+	
+	margin: 40px 0px 0px 150px;
+}
+
+
+.subH{
+	color: gray;
+	font-size: 11px;
+	font-weight: 700;
+
+}
+
+
+.order-button{
+	position: absolute;
+	background: white;
+	font-family: Arial;
+	font-weight: 100;
+	font-size: 20px;
+	top: 230px;
+	left: 300px;
+	padding: 40px 110px 40px 110px;
+
+	white-space: nowrap;
+	overflow: hidden;
+	
+	
+}
+
+
+
+
+
+
+.plink {
+	color: rgb(95, 93, 93);	
+	font-family: Times;
+	font-size: 30px;
+	
+	
+  }
+
+
+
+a.linkH:hover {
+	color:rgb(131, 126, 126);
+	background-color:transparent;  
+	
+}  
+
+
+.prefresh-Header-second{
+	margin: 60px 0px 0px 550px;
+
+}
+
+.fresh-Header-second{
+	margin: 30px 0px 0px 180px;
+	font-family: "Libre Baskerville";
+	font-style:italic;
+	font-size: 31px;
+	color: #bc9b5d;
+	letter-spacing: 1px;
+	text-align: center;
+	display: inline-block;
+
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+
+
+
+
+
+.banner-second {
+	background: url("images/image5.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	background-size: 1250px;
+	background-position: 0px -70px;
+	margin: 70px 0px 0px 0px;
+
+}
+
+
+
+
+
+
+.footer {
+	background-color:#bc9b5d; 
+	height:160px;
+	margin: 0px 0px 30px 0px;
+	padding: 40px 0px 0px 800px;
+
+
+
+}
+
+
+.footer-text{
+	color: white;
+	display: inline-block;
+
+	white-space: nowrap;
+	overflow: hidden;
+
+}
